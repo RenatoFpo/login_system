@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 
-let users = []
+export let users = []
 
 const SECRET = process.env.JWT_SECRET
 
